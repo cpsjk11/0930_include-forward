@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{/* 여백을 제거하고도 여백이 남는다면 바디쪽 여백을 제거해주면 된다. */
+	margin: 0;
+	padding: 0;
+}
+div#header{
+	height: 44px;
+	margin: 0;
+	background-color: #2e2e2e;
+}
+ul#nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font: 14px sans-serif;
+	text-align: center;
+	line-height: 44px;
+}
+ul#nav>li{
+	display: inline;
+	margin-right: 70px; 
+}
+ul#nav>li>a{
+	color: #ddd;
+	text-decoration: none;
+}
+ul#nav>li>a:hover{
+	color: #fff;
+}
+#apple{
+	background-image: url("../images/icon_apple.svg");
+	width: 48px;
+	position: absolute;
+	top: 1px;
+	background-repeat: no-repeat;
+	background-size: 16px 44px;
+	background-position: center;
+	
+	margin-left: -24px;
+	text-align: center;
+	z-index: 1;
+}
